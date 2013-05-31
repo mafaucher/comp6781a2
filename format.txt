@@ -1,0 +1,16 @@
+lexical_sample_answer
+   ::= lexelt instance_id sense_tag+ [!! comment]
+   e.g. 
+
+all_words_answer
+   ::= text_id head_id sense_tag+ [!! comment]
+
+lexelt ::= lexical element (as defined in the lex-sample evaluation data)
+instance_id ::= instance id (as defined in the lex-sample evaluation data)
+text_id ::= text id (as defined in the all-words evaluation data)
+head_id ::= head id (as defined in the all-words evaluation data)
+
+sense_tag ::= senseid[/weight]
+senseid ::= senseid from the lexicon for the task
+weight ::= integer or positive real number
+comment ::= text string

@@ -1,0 +1,4 @@
+how to access Senseval data from NLTK?
+http://pastebin.com/9SxhWKqX
+
+
